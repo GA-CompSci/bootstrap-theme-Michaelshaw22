@@ -1,6 +1,12 @@
 /***** 
 COLOR CHEAT SHEET 
+https://coolors.co/780000-c1121f-fef8ec-003049-669bbc
 
+780000 - Barn red
+c1121f - Fire brick
+fef8ec - Floral white
+003049 - Prussian blue
+669bbc - Air superiority blue
 
 *****/
 
@@ -9,9 +15,11 @@ COLOR CHEAT SHEET
 /******* FONTS ******/
 /********************/
 body, p {
+    font-family: "Play", system-ui;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: "SUSE", sans-serif;
 
 }

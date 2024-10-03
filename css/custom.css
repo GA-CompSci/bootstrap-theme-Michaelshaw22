@@ -1,4 +1,13 @@
 /***** 
+
+TOP SIX
+F40
+LaFerrari 
+P4
+Enzo
+250 gto 
+288 gto
+
 COLOR CHEAT SHEET 
 https://coolors.co/780000-c1121f-fef8ec-003049-669bbc
 
@@ -22,4 +31,82 @@ body, p {
 h1, h2, h3, h4, h5, h6 {
     font-family: "SUSE", sans-serif;
 
+}
+
+/********************/
+/******* HERO ******/
+/********************/
+header.masthead{
+    background: url("../img/f40hero.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/********************/
+/******* COLORS ******/
+/********************/
+
+.btn-primary:active, .btn-primary:focus{
+    background: #b71e28 !important;
+    border: 3px solid #86161d !important;
+}
+
+.btn-primary {
+    background: #960f18;
+    border: 3px solid #730c13;
+}
+
+.btn-primary:hover {
+    background: #a70f19;
+    border: 3px solid #8f131c;
+}
+
+.bg-primary{
+    background-color: #0c2725 !important;
+}
+
+.text-primary{
+    color: #9d2727 !important;
+}
+
+/********************/
+/******* NAV ******/
+/********************/
+
+#mainNav .navbar-brand {
+    color: #6c1222;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: #7f1327;
+}
+
+#mainNav {
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 0.4s ease;
+}
+
+#mainNav.navbar-shrink {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #580e1b;
+}
+
+#mainNav.navbar-shrink .navbar-brand {
+    color: #f2d9db;
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+    color: #f2d8da;
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+    color: #d7a4a9;
+}
+
+#mainNav.navbar-shrink .navbar-brand:hover {
+    color: #d7a4a9;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #f6a0a9 !important;
 }
